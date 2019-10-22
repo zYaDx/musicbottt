@@ -1,7 +1,7 @@
 const { Client, RichEmbed } = require("discord.js");
 const client = new Client({ disableEveryone: true})
 const ytdl = require("ytdl-core");
-const devs = ["" , "" , "" , "id"]
+const devs = ["283880597095710721" , "338838856638136331"]
 const request = require("request");
 const convert = require("hh-mm-ss")
 const fs = require("fs");
@@ -9,7 +9,7 @@ const getYouTubeID = require("get-youtube-id");
 const fetchVideoInfo = require("youtube-info");
 const simpleytapi = require('simple-youtube-api')
 const yt_api_key = "AIzaSyDoH9YxF0yi6ljyi2txYZHB10vXNUEP_2U"
-const prefix = "m-";
+const prefix = "1";
 client.login(process.env.SECERT_KEY);
 var guilds = {};
 /////////////////////////////////////////////////////////////////
